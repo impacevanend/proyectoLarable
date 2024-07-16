@@ -1,0 +1,72 @@
+*.sqlite*
+
+# Laravel & PHP
+/vendor/
+/node_modules/
+/public/storage
+/storage/*.key
+/.env
+Homestead.yaml
+Homestead.json
+/.vagrant
+
+# Laravel 5 & Lumen specific
+.phpunit.result.cache
+.env.testing
+.env.dusk.local
+
+# Ignorar directorios específicos
+/.idea
+/.vscode
+/.phpunit.result.cache
+.php_cs.cache
+
+# Ignorar archivos generados por sistema operativo
+.DS_Store
+Thumbs.db
+
+# Ignorar logs y caché
+/storage/logs/*.log
+/storage/framework/cache/data/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+
+# Ignorar archivos de configuración
+/.env
+.env.backup
+
+# Composer
+/vendor
+composer.lock
+
+# NPM
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn.lock
+
+# Ignorar archivos de pruebas
+.phpunit.result.cache
+
+# Ignorar directorios de herramientas de desarrollo
+/.vscode/
+/.idea/
+/phpstorm.meta.php
+
+# Ignorar archivos específicos de Laravel
+/storage/*.key
+/public/hot
+/public/storage
+/storage/oauth-private.key
+/storage/oauth-public.key
+/vendor
+
+# Ignorar archivos generados por el compilador de assets
+/public/css/app.css
+/public/css/app.css.map
+/public/js/app.js
+/public/js/app.js.map
+
+# Ignorar archivos de configuración específicos de Homestead
+Homestead.yaml
+Homestead.json
